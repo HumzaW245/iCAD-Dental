@@ -1,5 +1,7 @@
 # iCAD-Dental
 
+NOTE: Due to colab GPU usage limits, 50% of the data in each class was used.
+
 
 
 
