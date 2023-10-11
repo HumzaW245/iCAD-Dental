@@ -2,7 +2,7 @@
 
 NOTE: Due to colab GPU usage limits, 50% of the data in each class was used.
 
-
+NOTE2: An alternative neural network (architechture created by specifying each layer's details) can be seen commented out in the ipynb files but a pretrained_model (resnet50) was used with the output head modified for this task's images since training from scratch proved difficult without enough GPU allocation to try different network architechtures and do a proper hyperparameters search in the given time. (After reaching daily usage limit, I could not test anything so the pretrained model made sense to use at that point)
 
 
 conv1_feature_maps_64FilterActivationMaps.png:
