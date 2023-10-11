@@ -13,7 +13,7 @@ Refer to 'class ResNet(nn.module)' for reference on full details of the architec
 shap_top_features_explained.png:
 
 shap_top_features_explained.png shows, for the binary classification task, a plot of the crucial sections in images that affect the model's decisions the most.
-The shap plot shows the top 4 features (or in this case, pixel arrangements) that impact the prediction accuracy of there being a tumour or not. 
+The shap plot shows the features (or in this case, pixel arrangements) that impact the prediction accuracy of there being a tumour or not. 
 
 The blue pixels represent negative SHAP values which means the presence of these pixels lowers the predicitability for the model. The more intense the blue (more negative SHAP value), means a more significant influence and those pixels make predictions worse compared to 'less blue' ones.
 
